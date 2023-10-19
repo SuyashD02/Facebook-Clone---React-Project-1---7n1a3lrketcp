@@ -1,0 +1,125 @@
+.link {
+    text-decoration: none;
+    color: white;
+    border: 0;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    color: white;
+    border: 0;
+  }
+.navAppBar{
+  background-color: white;
+}
+
+  /*Search Bar*/
+  .search-Bar{
+    width: 15%;
+    background-color: lightgray;
+  }
+
+  /*Modal Box */
+  .modalBox{
+    border: 2px solid black;
+    height: 65vh;
+    width: 22em;
+    margin: 0px 20px 0px 0px;
+    background-color: white;
+  }
+  .boxUser{
+    border: 2px solid black;
+    box-shadow: 1px 2px 5px black;
+    margin: 10px 20px 0px 20px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+  }
+  .modalAcountIcon{
+    display: grid;
+    justify-content: right;
+  }
+  .acountData{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2px;
+    margin-left: 10px;
+  
+  }
+  .seeAllListButton{
+    height: 27px; 
+  }
+  .listItemProfile{
+    margin: 12px 10px 0px 10px;
+    border-radius: 5px;
+  }
+  .header_center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header_option >.MuiSvgIcon-root{
+  color: grey;
+}
+
+.header_option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header_option--active > .MuiSvgIcon-root{
+  color: #2e81f4;
+}
+
+.header_option--active {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header_option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header_option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: 0;
+}
+.responsiveSection{
+  display: flex;
+  gap: 10px;
+}
+.black-link{
+  color: black;
+  text-decoration: none;
+}
+@media(max-width: 400px){
+  .responsiveSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .search-Bar{
+    width: 63%;
+  }
+  .seachInput{
+    width: 300px;
+    margin-left: -10px;
+  }
+  .header_center{
+    width: 100px;
+    margin-left:130px;
+    padding: 0px;
+  }
+  .header_option {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer;
+    
+}
+}

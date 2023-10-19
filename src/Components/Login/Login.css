@@ -1,0 +1,111 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #ececec;
+}
+@media(max-width:400px) {
+  .login{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+  }
+  .left-Content{
+    margin-top: 0px;
+    border: 1px solid #42b72a;
+  }
+  .login-left{
+    border: 1px solid black;
+    margin-top: -100px;
+  }
+  .login-right{
+    margin-top: 0px;
+  }
+  
+}
+.left-Content{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+.right-Content{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-left{
+  margin-top: 250px;
+  font-size: 1.4rem;
+}
+.login-right{
+  margin-top: 85px;
+  background-color: white;
+  height: 340px;
+  padding: 10px;
+  width: 23em;
+  box-shadow: 1px 2px 5px rgb(41, 41, 41);
+  border: none;
+  border-radius: 8px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+.loginFBtn{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createNew-Btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#emailInput{
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+#passwordInput{
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+#logIn-Button{
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  background-color: #0866FF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#loginHeading{
+  color: #0866FF;
+}
+#createBtn{
+  background-color: #42b72a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#forgot-Btn{
+  color: #0866FF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.create-Footer{
+  background-color: aqua;
+  
+}

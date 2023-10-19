@@ -1,0 +1,125 @@
+.gridBox {
+    margin-top: 50px;  
+  }
+  
+  .paper {
+    position: relative;
+    height: 200px;
+    width: 130px;
+  }
+
+  .searchBox{
+   
+    border: 2px solid black;
+    box-shadow: 1px 2px 5px black;
+    width: 24em;
+    height: 14vh;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+  }
+  .searchSection{
+    display: grid;
+    justify-content: center;
+  }
+  .searchBar{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    
+  }
+  .searchInputpost{
+    color: inherit;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    
+  }
+  .postBox{
+    border: 2px solid black;
+    box-shadow: 1px 2px 5px black;
+    width: 24em;
+    height: 95%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .postSection{
+    display: grid;
+    justify-content: center;
+  }
+  .accountPostBox{
+    display: flex;
+    gap: 1em;    
+    margin-top: 5px;
+    margin-left: 17px;
+  }
+  .imgPost{
+    display: grid;
+    width: 24em;
+  }
+  #divider{
+    margin-top: 5px;
+  }
+ 
+  .filterButtons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+  .postButtons{
+    display: flex;
+    justify-content: space-around;
+  margin-top: 10px;
+  }
+  .createPostAccount{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  #createPostBio{
+    width: 100%;
+    height: 12vh;
+    margin-top: 10px;
+    border: none;
+  }
+  .createPostBar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+  }
+  .createPostBtn{
+    padding: 10px;
+    width: 100%;
+    margin-top: 16px;
+    color: white;
+    background-color: #0866FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .countLikeComment{
+    display: flex;
+    
+  }
+  .countLike{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .countComment{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .captionForPost{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #captionPost{
+    font-size: small;
+  }
